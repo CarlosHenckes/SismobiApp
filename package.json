@@ -1,0 +1,41 @@
+{
+  "name": "br.com.sismobi.app",
+  "version": "1.0.0",
+  "description": "FIAP MBA - Startup One",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "ejs": "~2.5.7",
+    "express": "~4.15.5",
+    "express-load": "^1.1.16",
+    "fusioncharts": "^3.12.2",
+    "morgan": "~1.9.0",
+    "serialport": "^6.2.0",
+    "serve-favicon": "~2.4.5",
+    "socket.io": "^2.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarlosHenckes/SismobiApp.git"
+  },
+  "keywords": [
+    "biometria",
+    "sensor",
+    "fiap",
+    "monitoramento",
+    "ambiente",
+    "toxicos"
+  ],
+  "author": "Sismobi Fiap Team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CarlosHenckes/SismobiApp/issues"
+  },
+  "homepage": "https://github.com/CarlosHenckes/SismobiApp#readme"
+}
